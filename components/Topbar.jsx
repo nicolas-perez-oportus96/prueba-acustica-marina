@@ -13,7 +13,7 @@ export default function Topbar() {
 
                     <Box display='flex' justifyContent='space-between' alignItems='center' width={'100%'}>
                         {/* LEFT */}
-                        <img src="/images/logo.png" width={'100px'} style={{ marginRight: '20px' }} />
+                        <img src="/images/logo.png" alt='AM logo' width={'100px'} style={{ marginRight: '20px' }} />
 
                         {/* right */}
                         {data.length !== 0 &&

@@ -149,7 +149,7 @@ const HistogramComponent = () => {
         console.log(chartData)
         setChartData(chartData);
         setLoading(false)
-    }, [data]);
+    }, [data, COLORS]);
 
     if (loading) return <h1>Cargando gráfico</h1>
 
