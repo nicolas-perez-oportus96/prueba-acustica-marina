@@ -18,6 +18,8 @@ Aplicación web que permite cargar un archivo csv con muestras de niveles de pre
 3. Ejecuta el comando `npm install` para instalar sus dependencias
 4. Ejecuta el comando `npm run dev` ejecutar la aplicación en modo desarrollo
 
+* NOTA: Debes tener instalado Node.js en tu equipo para ejecutar comandos NPM.
+
 ## Instrucciones de uso
 1. Cargar el archivo csv con las medicines de NPS. 
     * NOTA: solo permitirá la carga de un archivo que contenga las cabeceras: *fecha_captura*, *dispositivo* y *nps_global*
