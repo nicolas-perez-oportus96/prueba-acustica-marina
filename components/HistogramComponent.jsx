@@ -112,6 +112,7 @@ const HistogramComponent = () => {
             }
         }
     };
+    
 
     useEffect(() => {
         if (!data || data.length === 0) {
@@ -149,7 +150,7 @@ const HistogramComponent = () => {
         console.log(chartData)
         setChartData(chartData);
         setLoading(false)
-    }, [data, COLORS]);
+    }, [data]);
 
     if (loading) return <h1>Cargando gráfico</h1>
 

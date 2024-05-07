@@ -3,7 +3,11 @@ import { useData } from '@/hooks/useData'
 import React from 'react'
 import CSVReader from '@/components/DropCSVComponent'
 import { Box, Grid, Typography } from '@mui/material'
-import HistogramComponent from '@/components/HistogramComponent'
+import dynamic from 'next/dynamic'
+const HistogramComponent = dynamic(() => import('@/components/HistogramComponent'), {
+    ssr: false, // Disable server-side rendering
+});
+
 
 export default function Panel() {
     const { data } = useData()
