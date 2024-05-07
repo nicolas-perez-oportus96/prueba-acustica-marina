@@ -121,7 +121,6 @@ export default function CSVReader() {
 
         } else {
             alert("El archivo csv no contiene la estructura esperada.")
-            window.location.reload()
         }
 
 

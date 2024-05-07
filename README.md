@@ -4,11 +4,11 @@
 Aplicación web que permite cargar un archivo csv con muestras de niveles de presencia sonora para visualizar sus valores en un gráfico.
 
 ## Dependencias
-Next JS: Framework Javascript basado en React
-Material UI: Librería de componentes y estilos
-normalize.css: Normalización de estilos css para navegadores web.
-react-papaparse: Wrapper de la librería papaparse para permitir y gestionar la carga del archivo .csv
-react-chartjs-2: Librería de gráficos basado en ChartJS.
+- **Next JS:** Framework Javascript basado en React
+- **Material UI:** Librería de componentes y estilos
+- **normalize.css:** Normalización de estilos css para navegadores web.
+- **react-papaparse:** Wrapper de la librería papaparse para permitir y gestionar la carga del archivo .csv
+- **react-chartjs-2:** Librería de gráficos basado en ChartJS.
 
 ## Instrucciones de ejecución en ambiente local
 1. Descarga el repositorio
@@ -18,7 +18,7 @@ react-chartjs-2: Librería de gráficos basado en ChartJS.
 
 ## Instrucciones de uso
 1. Cargar el archivo csv con las medicines de NPS. 
-    * NOTA: solo permitirá la carga de un archivo que contenga las cabeceras: 'fecha_captura', 'dispositivo' y  'nps_global
+    * NOTA: solo permitirá la carga de un archivo que contenga las cabeceras: *fecha_captura*, *dispositivo* y *nps_global*
 2. Visualizar el gráfico en pantalla
     * Haz zoom con la rueda del mouse
     * Haz hover sobre un punto para ver sus datos 
